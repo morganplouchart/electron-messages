@@ -1,0 +1,230 @@
+html, body{
+  padding:0;
+  margin:0;
+}
+
+.row{
+  width:100vw;
+}
+
+#header{
+  display:flex;
+  justify-content: flex-end;
+  width:100vw;
+  height:60px;
+  background:#eee;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+background: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -140px;
+}
+
+.contacts {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+  border-right:1px solid #ccc;
+  height:93vh;
+}
+
+.chat {
+  display:flex;
+  flex-direction: column;
+  background: #fff;
+  height:93vh;
+  overflow: auto;
+}
+
+.profile {
+  display:flex;
+  flex-direction: column;
+  background: #eeee;
+  border-left:1px solid #ccc;
+  height:93vh;
+}
+
+.ContentProfile{
+  display:flex;
+  justify-content: space-around;
+  margin-top:20px;
+  color:grey;
+}
+
+.ContentbigIconProfile{
+  overflow: hidden;
+  background: #ccc;
+  width:300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-left:30%;
+  margin-top:100px;
+}
+.ButtonActions{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  margin-top:100px;
+}
+.red{
+  background:red;
+  padding:10px;
+  color:white;
+  border-radius: 50px;
+}
+
+.green{
+  background:green;
+  padding:10px;
+  color:white;
+  border-radius: 100px;
+}
+.bigIconProfile{
+
+  width:300px;
+  height: 300px;
+}
+.iconProfile {
+  color:grey;
+}
+
+.iconContact{
+  width:50px;
+  height:50px;
+  border-radius: 50px;
+  background: white;
+  border:1px solid black;
+  margin-top:25px;
+  overflow: hidden;
+}
+
+.iconContact:hover{
+  background:white;
+  cursor: pointer;
+}
+
+.ContentChat{
+  background: transparent;
+  height: 100vh;
+  overflow: auto;
+}
+
+.contentContact{
+  display:flex;
+  flex-direction: column;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  width:10vw;
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: 400ms all;
+}
+.contentContact:hover{
+  background: orange;
+}
+
+.active{
+  background: orange;
+  color: white;
+}
+
+.img{
+  width:50px;
+}
+
+.content {
+  display: flex;
+}
+
+
+
+.iconChatZoneMe{
+  width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background: transparent;
+      border: 1px solid #bbb;
+      margin-top: 25px;
+      margin-left: 10px;
+      overflow: hidden;
+      justify-content: space-around;
+}
+
+
+.iconChatZoneOther{
+  width:50px;
+  height:50px;
+  border-radius: 50px;
+  background: transparent;
+  border:1px solid #bbb;
+  margin-top:25px;
+  margin-left:10px;
+  overflow: hidden;
+}
+
+.textChat{
+  background: blue;
+  padding: 15px;
+  color: white;
+  border-radius: 0 40px 40px 40px;
+  font-size: 0.7em;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.me{
+  display: flex;
+    flex-direction: row;
+}
+
+.you {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textChatOther{
+    background: grey;
+    padding: 15px;
+    color: white;
+    font-size: 0.7em;
+    border-radius: 40px 0 40px 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.chatZoneOther{
+  float:right;
+
+}
+
+.zoneInput{
+  display:flex;
+    margin-bottom: 20px;
+}
+
+.input{
+  width:48vw;
+  margin-right:10px;
+  padding:10px;
+  color:grey;
+}
+
+.send{
+  background: blue;
+  border:none;
+  border-radius: 10px;
+  color:white;
+  padding:10px;
+}
